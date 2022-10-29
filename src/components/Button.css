@@ -1,0 +1,11 @@
+.button{
+    border-radius: 12px;
+    background-color: rgb(255, 74, 0);
+    width: 215px;
+    height: 43px;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.661;
+
+}
