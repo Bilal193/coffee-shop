@@ -1,0 +1,107 @@
+.darkcoffee {
+    font-size: 120px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: rgb(0, 11, 44);
+    font-style: italic;
+
+}
+
+.drak-coffee-backgroundimg {
+    background-image: url(./images/backgroundshape\ 1\ .png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 852px;
+
+}
+
+.m-top-img {
+    margin-top: 140px;
+}
+
+.m-top-title {
+    margin-top: 150px;
+}
+
+.m-top-text {
+    margin-top: 90px;
+}
+
+.spacer-2 {
+    height: 229px;
+}
+
+.z-circle {
+    z-index: 1 !important;
+}
+
+.text-wrap {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle(307px at -272px 150px);
+}
+
+@media only screen and (max-width:1200px) {
+    .drak-coffee-backgroundimg {
+        background-color: #122341;
+        background-image: none;
+
+    }
+    .m-top-img {
+        margin-top: 0px;
+    }
+    .m-top-text {
+        margin-top: 40px;
+    }
+   
+
+    .dark-cup {
+        display: none;
+    }
+
+    .darkcoffee {
+        color: white;
+    }
+
+    .remove-text-end {
+        text-align: justify !important;
+    }
+
+    .text-wrap {
+        width: 0px;
+        height: 0px;
+        shape-outside: circle();
+    }
+
+    .remove-pe {
+        padding-right: 0 !important;
+    }
+
+    .center-col {
+        justify-content: center !important;
+    }
+
+
+}
+
+@media only screen and (max-width:376px) {
+    .xxs-center {
+        text-align: center !important;
+        justify-content: center !important
+    }
+
+    .dxxs-flex {
+        display: flex;
+    }
+
+    .darkcoffee {
+        font-size: 70px;
+
+    }
+    .remove-ps{
+        padding-left: 0!important;
+    }
+
+}
