@@ -1,0 +1,29 @@
+.cold-coffee-backgroundimg {
+    background-image: url(./images/background\ design\ 2.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 800px;
+
+}
+.m-top-img {
+    margin-top: 140px;
+}
+.spacer-2 {
+    height: 209px;
+}
+@media only screen and (max-width:1200px) {
+    .drak-coffee-backgroundimg {
+        background-color: #122341;
+        background-image: none;
+
+    }
+    .m-top-img {
+        margin-top: 0px;
+    }
+    .center-col {
+        justify-content: center !important;
+    }
+
+
+}
+

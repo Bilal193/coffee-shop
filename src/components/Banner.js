@@ -1,37 +1,7 @@
 import Button from "./Button";
-import React,{useState,useRef,useEffect} from "react";
+import React from "react";
 import './Header.css'
 const Banner = () => {
-//    const [width,updateWidth]=useState(window.innerWidth)
-   
-// const detectChange=()=>{
-//     updateWidth(window.innerWidth)}
-//     useEffect(()=>{
-//         window.addEventListener('resize',detectChange)
-//         return()=>window.removeEventListener('resize',detectChange)
-
-//     },[width])
-
-  
-
-
-//     let buttonDiv=useRef();
-//     const screenWidth=()=>{
-//         if(width<370)
-//         {
-//             buttonDiv.current.classList.add('d-flex')
-//         }
-        // else if(buttonDiv.current.classList.contains('d-flex')){
-        //     console.log('b')
-            
-        // }
-        // // else{
-        // //     console.log(buttonDiv.current.classList.contains('d-flex'))
-        // // }
-      
-    //}
-    // screenWidth();
-    // console.log(buttonDiv.current.classList.contains('d-flex'))
 
     return (
         <div className="row remove-margin">

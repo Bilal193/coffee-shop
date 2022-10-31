@@ -1,0 +1,51 @@
+/* cup */
+.m-top-text {
+    margin-top: 90px;
+}
+.text-wrap {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle(307px at -272px 150px);}
+@media only screen and (max-width:1200px) {
+    
+   
+    .m-top-text {
+        margin-top: 40px;
+    }
+   
+
+    .dark-cup {
+        display: none;
+    }/*for cup*/
+
+    /* .darkcoffee {
+        color: white;
+    } */
+
+    .remove-text-end {
+        text-align: justify !important;
+    }
+
+    .text-wrap {
+        width: 0px;
+        height: 0px;
+        shape-outside: circle();
+    }
+    .text-wrap-cold {
+        width: 0px;
+        height: 0px;
+        shape-outside: circle();
+    }
+
+    /* .remove-pe {
+        padding-right: 0 !important;
+    } */
+
+    /* .center-col {
+        justify-content: center !important;
+    } */
+
+
+}

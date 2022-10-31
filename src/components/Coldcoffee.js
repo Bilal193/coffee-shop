@@ -1,23 +1,22 @@
-import './Darkcoffee.css'
-import Button from './Button';
-import Titleandbtn from './cofees/Titleandbtn';
-import Cup, { Text } from './cofees/Cupandtext'
+import './Coldcoffee.css'
+import Titleandbtn from './cofees/Titleandbtn'
+import Cup, {Text,TextCold } from './cofees/Cupandtext'
 
 
-const Darkcoffee = (props) => {
+const Coldcoffee = (props) => {
     const classes = 'container-fluid ' + props.className;
     console.log(classes);
     return (
 
         <div className={classes}>
-            <div className="row">
-                <Titleandbtn name={props.name} />
+            <div className="row"> 
                 <div className="col-xl-8 m-top-img">
                     <div className="row center-col">
+                        <TextCold text={props.text}/>
                         <Cup pic={props.pic} />
-                        <Text text={props.text} />
                     </div>
                 </div>
+                <Titleandbtn name={props.name} /> 
             </div>
             <div className="row spacer-2">
 
@@ -25,4 +24,4 @@ const Darkcoffee = (props) => {
         </div>
     )
 }
-export default Darkcoffee;
+export default Coldcoffee;
