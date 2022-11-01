@@ -4,6 +4,7 @@ import './Body.css';
 import Darkcoffee from './Darkcoffee';
 import Coldcoffee from './Coldcoffee';
 import Voucher from './Voucher';
+import About from './About';
 
 const Body=()=>{
     const Coffees=[
@@ -31,6 +32,7 @@ const Body=()=>{
             <Coldcoffee name={Coffees[1].nme} pic={Coffees[1].pic} text={Coffees[1].text} className={Coffees[1].class} /> 
             <Darkcoffee name={Coffees[2].nme} pic={Coffees[2].pic} text={Coffees[2].text} className={Coffees[2].class} />
             <Voucher/>
+            <About/>
 
         </div>
     )

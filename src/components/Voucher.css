@@ -6,10 +6,9 @@
 .voucher-box{
     height: 450px;
     width:95vw;
-    /* background-color: aqua; */
     margin: 20px auto;
     border: 10px solid #122341;
-    box-sizing: border-box;
+    box-sizing: border-box; position: relative;
 }
 .row-height{
     height: 100%;
@@ -112,4 +111,12 @@
 .row-height{
     height: 84%;
 }
+}.leaf{
+    position: absolute;
+    bottom: 0%;
+    left: 36%;
+    z-index: -3;
+}
+.img-fluid{
+    max-height: 50%;
 }
