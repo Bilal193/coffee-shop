@@ -1,0 +1,12 @@
+.ff {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timing-box {
+    
+    background-color: rgb(35, 62, 106);
+    height: 150px;
+    box-shadow: 5px 5px 7px rgba(35, 62, 106);
+
+
+}
