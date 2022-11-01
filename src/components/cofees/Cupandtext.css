@@ -1,4 +1,4 @@
-/* cup */
+
 .m-top-text {
     margin-top: 90px;
 }
@@ -18,11 +18,7 @@
 
     .dark-cup {
         display: none;
-    }/*for cup*/
-
-    /* .darkcoffee {
-        color: white;
-    } */
+    }
 
     .remove-text-end {
         text-align: justify !important;
@@ -38,14 +34,6 @@
         height: 0px;
         shape-outside: circle();
     }
-
-    /* .remove-pe {
-        padding-right: 0 !important;
-    } */
-
-    /* .center-col {
-        justify-content: center !important;
-    } */
 
 
 }
