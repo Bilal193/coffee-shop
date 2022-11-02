@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/https/://bilal193.github.io/coffee-shop/static/css/main.0d407926.css",
+    "main.js": "/https/://bilal193.github.io/coffee-shop/static/js/main.1a165cf8.js",
+    "static/media/headercover.png": "/https/://bilal193.github.io/coffee-shop/static/media/headercover.cbea3fe048609d715c33.png",
+    "static/media/girlwithcup.png": "/https/://bilal193.github.io/coffee-shop/static/media/girlwithcup.81993e0fa22f701593e4.png",
+    "static/media/coldcofeecup.png": "/https/://bilal193.github.io/coffee-shop/static/media/coldcofeecup.aae746d88024dc7f03ba.png",
+    "static/media/hotcofeecup.png": "/https/://bilal193.github.io/coffee-shop/static/media/hotcofeecup.0b4334b5549a110b96a5.png",
+    "static/media/Texas.png": "/https/://bilal193.github.io/coffee-shop/static/media/Texas.acebff8e8a3204256b2c.png",
+    "static/media/darkcofeecup.png": "/https/://bilal193.github.io/coffee-shop/static/media/darkcofeecup.e9d168dcb9705350e45b.png",
+    "static/media/newjersy.png": "/https/://bilal193.github.io/coffee-shop/static/media/newjersy.08d4f5f7c81fbb800c50.png",
+    "static/media/newyork.png": "/https/://bilal193.github.io/coffee-shop/static/media/newyork.e9807acbc053aeeeb567.png",
+    "static/media/leafimage.png": "/https/://bilal193.github.io/coffee-shop/static/media/leafimage.ac9c31159a67856e52de.png",
+    "index.html": "/https/://bilal193.github.io/coffee-shop/index.html",
+    "main.0d407926.css.map": "/https/://bilal193.github.io/coffee-shop/static/css/main.0d407926.css.map",
+    "main.1a165cf8.js.map": "/https/://bilal193.github.io/coffee-shop/static/js/main.1a165cf8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d407926.css",
+    "static/js/main.1a165cf8.js"
+  ]
+}
