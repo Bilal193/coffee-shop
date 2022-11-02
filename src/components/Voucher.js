@@ -33,7 +33,7 @@ const Voucher = () => {
 
                 </div>
                 <div className="leaf container">
-                    <img className='img-fluid' src={require('./images/leafimage.png')} alt="" />
+                    <img className='img-fluid img-leaf' src={require('./images/leafimage.png')} alt="" />
 
                 </div>
             </div>

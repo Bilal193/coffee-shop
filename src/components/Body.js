@@ -7,6 +7,8 @@ import Voucher from './Voucher';
 import About from './About';
 import Reviews from './Reviews';
 import Timings from './Timings';
+import PageTitle from './PageTitle';
+import Card from './Card';
 
 const Body = () => {
     const Coffees = [
@@ -30,18 +32,41 @@ const Body = () => {
         }
 
     ]
-    const timings=[
+    const timings = [
         {
-        day: 'Monday - Thursday',
-        time: '08:00 am - 08:00 pm'
+            day: 'Monday - Thursday',
+            time: '08:00 am - 08:00 pm'
 
-    },
+        },
         {
-        day: 'Friday - Sunday',
-        time: '10:00 am - 12:00 pm'
+            day: 'Friday - Sunday',
+            time: '10:00 am - 12:00 pm'
 
-    },
-]
+        },
+    ]
+    const cities = [
+        {
+            pic: require('./images/newjersy.png'),
+            city: 'new jersy',
+            citybg: require('./images/citybg.png'),
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae minus, adipisci dolorem quas est corporis sequi nulla vero natus ea eum, inventore quos aperiam iste provident et mollitia fugiat? Dolor, exercitationem a illo nostrum suscipit eius iste eos iusto!',
+
+        },
+        {
+            pic: require('./images/newyork.png'),
+            city: 'new york',
+            citybg: require('./images/citybg.png'),
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae minus, adipisci dolorem quas est corporis sequi nulla vero natus ea eum, inventore quos aperiam iste provident et mollitia fugiat? Dolor, exercitationem a illo nostrum suscipit eius iste eos iusto!',
+
+        },
+        {
+            pic: require('./images/Texas.png'),
+            city: 'texas',
+            citybg: require('./images/citybg.png'),
+            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro repudiandae minus, adipisci dolorem quas est corporis sequi nulla vero natus ea eum, inventore quos aperiam iste provident et mollitia fugiat? Dolor, exercitationem a illo nostrum suscipit eius iste eos iusto!',
+
+        }
+    ]
     return (
         <div>
 
@@ -51,13 +76,18 @@ const Body = () => {
             <Voucher />
             <About />
             <Reviews />
-            <div className="row text-center text-capitalize top-margin-open mb-5">
-                <div className="col-12 font-open">
-                    we are open
-                </div>
+            <PageTitle title='we are open' />
+            {timings.map(e => <Timings day={e.day} time={e.time} />)}
+            <PageTitle title='our branches' />
+            <div className="row justify-content-center">
+                {cities.map(e => {
+                    return(
+                    <div className="col-lg-4 col-md-6 mb-5">
+                    <Card pic={e.pic} city={e.city} citybg={e.citybg} text={e.text} />
+                    </div>)
+                })}
             </div>
-           {timings.map(e=><Timings day={e.day} time={e.time} />)}
-            
+
 
         </div>
     )

@@ -1,0 +1,16 @@
+.top-margin-open{
+    margin-top: 85px;
+    }
+    .font-open{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 77px; 
+        font-weight: bold;
+    }
+    @media screen and (max-width:474px) {
+        .font-open{
+            
+            font-size: 60px; 
+            
+        }
+        
+    }
