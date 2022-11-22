@@ -1,11 +1,12 @@
-import './Coldcoffee.css'
-import Titleandbtn from './cofees/Titleandbtn'
-import Cup, {Text,TextCold } from './cofees/Cupandtext'
+import React from 'react';
+import './Coldcoffee.css';
+import Titleandbtn from './cofees/Titleandbtn';
+import Cup, {TextCold } from './cofees/Cupandtext';
 
 
 const Coldcoffee = (props) => {
     const classes = 'container-fluid ' + props.className;
-    console.log(classes);
+   
     return (
 
         <div className={classes}>

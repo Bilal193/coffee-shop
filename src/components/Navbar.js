@@ -1,3 +1,4 @@
+import React from 'react';
 import './Header.css'
 const Navbar = () => {
   return (
@@ -9,22 +10,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item ms-5">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li className="nav-item ms-5">
-              <a className="nav-link" aria-current="page" href="#">About</a>
+              <a className="nav-link" aria-current="page" href="#about">About</a>
             </li>
             <li className="nav-item ms-5">
-              <a className="nav-link" aria-current="page" href="#">Manu</a>
+              <a className="nav-link" aria-current="page" href="#menu">Menu</a>
             </li>
             <li className="nav-item ms-5">
-              <a className="nav-link" aria-current="page" href="#">Blog</a>
+              <a className="nav-link" aria-current="page" href="#blog">Blog</a>
             </li>
             <li className="nav-item ms-5">
-              <a className="nav-link" aria-current="page" href="#">Shop</a>
+              <a className="nav-link" aria-current="page" href="#branches">Branches</a>
             </li>
             <li className="nav-item ms-5">
-              <a className="nav-link" aria-current="page" href="#">Contact</a>
+              <a className="nav-link" aria-current="page" href="#footer">Contact</a>
             </li>
           </ul>
         </div>

@@ -1,8 +1,9 @@
-import './About.css'
+import './About.css';
+import React from 'react';
 
 const About = () => {
     return (
-        <div className="container bg-color mt-5">
+        <div className="container bg-color mt-5" id='about'>
             <div className="row align-items-center justify-content-center pb-5">
                 <div className="col-10 text-capitalize text-center font-about mt-1">
                     about us

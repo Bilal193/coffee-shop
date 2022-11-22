@@ -1,4 +1,5 @@
-import './Voucher.css'
+import './Voucher.css';
+import React from 'react';
 
 
 const Voucher = () => {
@@ -32,7 +33,7 @@ const Voucher = () => {
 
 
                 </div>
-                <div className="leaf container">
+                <div className="leaf">
                     <img className='img-fluid img-leaf' src={require('./images/leafimage.png')} alt="" />
 
                 </div>

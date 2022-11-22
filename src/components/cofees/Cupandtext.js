@@ -1,4 +1,5 @@
-import "./Cupandtext.css"
+import React from "react";
+import "./Cupandtext.css";
 
 const Cup = (props) => {
     return (<div className="col-xl-6 d-flex">

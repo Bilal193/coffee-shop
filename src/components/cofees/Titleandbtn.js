@@ -1,5 +1,6 @@
 import './Titleandbtn.css'
-import Button from '../Button'
+import Button from '../Button';
+import React from 'react';
 
 const Titleandbtn = (props)=>{
     return (

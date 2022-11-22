@@ -7,18 +7,18 @@
     background-size: 832px;
 
 }
-.cold-coffee-backgroundimg {
+/* .cold-coffee-backgroundimg {
     background-image: url(./images/background\ design\ 2.png);
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 800px;
+    background-size: 882px; */
 
-}
+/* } */
 .hot-coffee-backgroundimg {
     background-image: url(./images/backgroundshape\ 3.png);
     background-repeat: no-repeat;
     background-position: top right;
-    background-size: 855px;
+    background-size: 850px;
 
 }
 

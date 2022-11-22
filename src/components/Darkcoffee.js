@@ -1,12 +1,12 @@
+import React from 'react';
 import './Darkcoffee.css'
-import Button from './Button';
 import Titleandbtn from './cofees/Titleandbtn';
 import Cup, { Text } from './cofees/Cupandtext'
 
 
 const Darkcoffee = (props) => {
     const classes = 'container-fluid ' + props.className;
-    console.log(classes);
+    
     return (
 
         <div className={classes}>

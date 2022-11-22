@@ -1,5 +1,4 @@
 import React from 'react';
-import { isCursorAtEnd } from '@testing-library/user-event/dist/utils';
 import './Body.css';
 import Darkcoffee from './Darkcoffee';
 import Coldcoffee from './Coldcoffee';
@@ -67,8 +66,10 @@ const Body = () => {
 
         }
     ]
+ 
     return (
-        <div>
+        
+        <div id='menu'>
 
             <Darkcoffee name={Coffees[0].nme} pic={Coffees[0].pic} text={Coffees[0].text} className={Coffees[0].class} />
             <Coldcoffee name={Coffees[1].nme} pic={Coffees[1].pic} text={Coffees[1].text} className={Coffees[1].class} />
@@ -77,13 +78,14 @@ const Body = () => {
             <About />
             <Reviews />
             <PageTitle title='we are open' />
-            {timings.map(e => <Timings day={e.day} time={e.time} />)}
+            <div className='container'>
+            {timings.map(e => <Timings day={e.day} time={e.time} />)}</div>
             <PageTitle title='our branches' />
-            <div className="row justify-content-center">
+            <div className="d-flex justify-content-center">
                 {cities.map(e => {
                     return(
-                    <div className="col-lg-4 col-md-6 mb-5">
-                    <Card pic={e.pic} city={e.city} citybg={e.citybg} text={e.text} />
+                    <div className="col-lg-4 col-md-6 mb-5" id='branches'>
+                    <Card pic={e.pic} city={e.city} citybg={e.citybg} text={e.text}  />
                     </div>)
                 })}
             </div>

@@ -1,4 +1,5 @@
-import './Timings.css'
+import React from 'react';
+import './Timings.css';
 
 const Timings=(props)=>{
     return(

@@ -4,7 +4,7 @@ import './Header.css'
 const Banner = () => {
 
     return (
-        <div className="row remove-margin">
+        <div className="row remove-margin" id="home">
             <div className="col-lg-6">
                 <div className="row justify-content-center">
                     <div className="col-11">
